@@ -1,5 +1,5 @@
 {
-  "homepage": "https://thelargecactus.com/website"
+  "homepage": "https://thelargecactus.github.io/",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -10,8 +10,8 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-	"predeploy": "npm run build"
-	"deploy": "gh-pages -b master -d build"
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
